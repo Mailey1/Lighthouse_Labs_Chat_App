@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="style.css">
+
+<main>
+    <ul id="history">
+		<p><strong>KV and DV talk so it looks less empty.</strong><p>
+        <li>KV says: hey there, DV</li>
+        <li>DV says: Hiii!!!</li>
+        <li>KV says: What's up DV?</li>
+        <li>DV says: Oh you know, just chillin'</li>
+        <li>KV says: Have any pretzels?</li>
+        <li>DV says: Sure, here you go KV!</li>
+    </ul>
+    <form>
+      <input type="text" id="initials" required
+        minlength="1" maxlength="2">
+      <input type="text" id="message">
+      <button>Send</button>  
+    </form>
+</main>
+
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="app.js"></script>
